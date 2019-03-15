@@ -553,7 +553,7 @@ if __name__ == "__main__":
 	num_buckets=table_structure_json['table_structure']['partitioning']['add_hash_partitions']['num_buckets']
 	
 	#create table 
-	#kudu_client = KuduClient(host = "100.69.216.37",port=7051,table_name = table_name)
+	#kudu_client = KuduClient(host = "xx.xx.xx.xx",port=7051,table_name = table_name)
 	#kudu_client.create_kudu_table(primary_key_list, key_list,column_names,num_buckets)
 	
 	
